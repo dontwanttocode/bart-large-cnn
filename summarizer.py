@@ -20,7 +20,7 @@ if st.button("📄Summarize"):
     else:
         st.warning("Please enter some text to summarize.")
 
-st.sidebar.header("About")
+st.sidebar.header("🤔About")
 st.sidebar.info(
     "This summarizer uses the BART model (facebook/bart-large-cnn) "
     "fine-tuned on the CNN Daily Mail dataset making it particularly "
