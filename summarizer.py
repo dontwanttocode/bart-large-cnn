@@ -1,7 +1,7 @@
 import streamlit as st
 from transformers import pipeline
 
-pipe = pipeline("summarization", model="ainize/bart-base-cnn")
+pipe = pipeline("summarization", model="facebook/bart-large-cnn")
 
 def summarize_text(input_text):
     summary = pipe(input_text,do_sample = False)
