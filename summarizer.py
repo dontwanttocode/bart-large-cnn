@@ -37,4 +37,4 @@ The tower is 324 metres (1,063 ft) tall, about the same height as an 81-storey b
 structure in Paris. Its base is square, measuring 125 metres (410 ft) on each side.'''
 
 if st.sidebar.button("Try Sample Text"):
-    st.text_area("Summarized sample text:", value=sample_text, height=200)
+    st.text_area("Summarized sample text:", value=summarize_text(sample_text), height=200)
