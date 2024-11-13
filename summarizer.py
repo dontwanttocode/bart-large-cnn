@@ -1,7 +1,5 @@
-import os
 import streamlit as st
 from transformers import pipeline
-
 
 pipe = pipeline("summarization", model="facebook/bart-large-cnn")
 
